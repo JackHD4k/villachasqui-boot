@@ -1,10 +1,11 @@
 import { Linden_Hill } from 'next/font/google'
+import Link from 'next/link'
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import BootstrapClient from './components/BootstrapClient.js'
 
 
-const linden = Linden_Hill({ subsets: ['latin'], weight: '400'})
+const linden = Linden_Hill({ subsets: ['latin'], weight: '400' })
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,11 +14,35 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={linden.className}>
+        <div class="container">
+          <div className="container my-4 text-center" style={{ backgroundColor: '#722f37' }}>
+            <img src="../reducido.png" className='img-fluid' alt="logo"/>
+          </div>
+          <nav class="navbar navbar-expand-lg my-4 border-top border-bottom">
+            <div class="container-fluid d-flex justify-content-center">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartop" aria-controls="navbartop" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-md-center" id="navbartop">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <Link className='nav-link text-dark' href={'/'}>INICIO</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link className='nav-link text-dark' href={'/miscelanea'}>MISCELANEA</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
         {children}
+
         <BootstrapClient />
-        </body>
+      </body>
     </html>
   )
 }
