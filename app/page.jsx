@@ -20,7 +20,7 @@ export default function Home() {
         <div class="row g-5">
           <div class="col-md-8"> 
             <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
-              POLITICA PERUANA
+              POLÍTICA
             </h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
@@ -337,23 +337,6 @@ export default function Home() {
 
 
             </div>
-          </div>
-
-          {/* FOOTER */}
-
-          <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-              <div class="col-md-4 d-flex align-items-center">
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
-              </div>
-
-              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li className='ms-3'>Facebook</li>
-                <li className='ms-3'>Instagram</li>
-                <li className='ms-3'>TikTok</li>
-                <li className='ms-3'>Spotify</li>
-              </ul>
-            </footer>
           </div>
         </div>
       </div>
