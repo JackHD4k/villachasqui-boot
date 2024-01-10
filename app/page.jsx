@@ -1,43 +1,9 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
 import './page.css'
 
 export default function Home() {
   return (
-    /*     <main className={styles.main}>
-          <div className="container my-4">
-            <h1>LOGO</h1>
-          </div>
-          <div className='container'>
-            <nav class="navbar navbar-expand-lg my-4 border-top border-bottom">
-              <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartop" aria-controls="navbartop" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-md-center" id="navbartop">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">MISCELANEA</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-          <div className='container'>
-            <img src="/imghero.jpg" className='img-fluid' alt="asdf" />
-          </div>
-          <div >
-            <h3 class="pb-4 mb-4 fst-italic border-bottom">
-              From the Firehose
-            </h3>
-          </div>
-        </main> */
     <main>
-
-
       {/* CENTRO */}
 
       <div class="container">
@@ -47,39 +13,7 @@ export default function Home() {
             <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
           </div>
         </div>
-
-        {/* <div class="row mb-2">
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
-                <h3 class="mb-0">Featured post</h3>
-                <div class="mb-1 text-body-secondary">Nov 12</div>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-                  Continue reading
-                </a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
-                <h3 class="mb-0">Post title</h3>
-                <div class="mb-1 text-body-secondary">Nov 11</div>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-              </div>
-            </div>
-          </div>
-        </div> */
-        }
+        
 
         {/* NOTICIAS */}
 
