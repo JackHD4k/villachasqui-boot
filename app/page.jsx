@@ -6,254 +6,256 @@ export default function Home() {
     <main>
       {/* CENTRO */}
 
-      <div class="container">
-        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-          <div class="col-lg-6 px-0">
-            <h1 class="display-4 fst-italic"  style={{ color: '#722f37' }}>Title of a longer featured blog post</h1>
-            <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <div className="container">
+        <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+          <div className="col-lg-6 px-0">
+            <h1 className="display-4 fst-italic" style={{ color: '#722f37' }}>Historias que importan, noticias que transforman</h1>
+            <p className="lead my-3">Multiple lines of text that form the lede, informing new readers qu
+              ickly and efficiently about what’s most interesting in this post’s contents.</p>
           </div>
         </div>
-        
+
 
         {/* NOTICIAS */}
 
-        <div class="row g-5">
-          <div class="col-md-8"> 
-            <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
+        <div className="row g-5">
+          <div className="col-md-8">
+            <h3 className="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
               POLÍTICA
             </h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/politica/Imagen8.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Poder Judicial absolvió a Vladimiro Montesinos por lesiones graves contra exagente Leonor La Rosa</h5>
+                    <p className="card-text">También fueron absueltos el exjefe del Comando Conjunto de las Fuerzas Armadas Nicolás de Bari Hermoza Ríos y Julio Salazar Monroe...</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/politica/Imagen9.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Caso “Mochasueldos”</h5>
+                    <p className="card-text">En dos oportunidades, la Comisión de Ética protegió a legisladores. Se trata de Heidy Juárez (Podemos) y Magaly Ruiz (Alianza para el Progreso), quienes estuvieron envueltas en el caso de recorte de sueldo.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/politica/Imagen11.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">El expresidente Alberto Fujimori es puesto en libertad</h5>
+                    <p className="card-text">El expresidente Alberto Fujimori —a los 85 años de edad—abandonó el penal de Barbadillo, luego de que el ...</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/politica/Imagen12.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Dina Boluarte envía mensaje por año nuevo</h5>
+                    <p className="card-text">La presidenta Dina Boluarte aseguró este domingo 31 de diciembre que su gobierno se enfocará en impulsar la economía y luchar contra la criminalidad y la delincuencia en el 2024.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/politica/Imagen13.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">PJ dicta 35 meses de prisión preventiva para Vladimir Cerrón </h5>
+                    <p className="card-text">El fiscal Richard Rojas Gómez advirtió que no cumplió reglas de conducta, tras ser sentenciado en otro caso y encontrarse prófugo. Sobre el líder de Perú Libre pesa ya una condena a 3 años y 6 meses de prisión por corrupción.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="dfs" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/politica/Imagen15.png" alt="dfs" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">El expresidente Alejandro Toledo llega al Perú tras ser entregado a la justicia</h5>
+                    <p className="card-text">Según información de las autoridades competentes a velar por el resguardo del ex jefe de Estado, Toledo Manrique deberá ser sometido al rutinario ...</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
+            <h3 className="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
               INTERNACIONALES
             </h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/internacionales/Imagen27.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Mas de 11,000 muertos a un mes de guerra entre Israel y Hamás </h5>
+                    <p className="card-text">Al menos 4.000 niños han muerto en la franja de Gaza por bombardeos israelíes en una catástrofe humanitaria que no parece estar cerca de terminar.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/internacionales/Imagen28.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Incendio en Chile deja 14 muertos de nacionalidad venezolana </h5>
+                    <p className="card-text">El presidente chileno se pronunció sobre la tragedia registrada en la comuna de Coronel, donde 3 familias, entre los que se hallaban 8 menores, perdieron la vida al quemarse sus viviendas.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/internacionales/Imagen32.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Rusia realiza un nuevo ataque a Ucrania</h5>
+                    <p className="card-text">El presidente Volodímir Zelenski afirmó hoy, viernes 29 de diciembre de 2023, que, como parte de los masivos ataques rusos, las fuerzas de Moscú lanzaron unos 110 misiles contra territorio de Ucrania.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/internacionales/Imagen29.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Javier Milei asumió como presidente de Argentina</h5>
+                    <p className="card-text">Asunción de Javier Milei. El libertario asumió como presidente de Argentina, dando inicio a un periodo de cuatro años en el que el economista deberá gobernar un país de más de 35 millones de personas en crisis social y económica.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/internacionales/Imagen30.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Perú expresa sus buenos deseos tras la coronación del rey Carlos III</h5>
+                    <p className="card-text">
+                      Perú saludó este sábado a Carlos III tras su coronación como nuevo monarca de Reino Unido y le deseó sus mejores deseos en beneficio a la población de su país, a través de una publicación compartida en redes sociales.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="dfs" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/internacionales/Imagen31.png" alt="dfs" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Mexico y EE. UU. acuerdan mantener pasos fronterizos abiertos</h5>
+                    <p className="card-text">Andrés Manuel López Obrador también subrayó la necesidad de continuar con el compromiso diplomático y político con todos los países de la región e invertir en programas de desarrollo para toda América..</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
+            <h3 className="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
               ESPECTÁCULOS
             </h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/espectaculos/Imagen1.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Las cámaras de Magaly TV captan infidelidad de Paolo Hurtado y Jossmery Toledo</h5>
+                    <p className="card-text">Paolo Hurtado y Jossmery Toledo protagonizan un ampay tras mantener un oculto romance y tener encuentros fortuitos en el Cusco..</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/espectaculos/Imagen3.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Yiddá Eslava y Julián Zucchi terminan su relación tras 11 años</h5>
+                    <p className="card-text">En una inesperada noticia compartida en sus redes sociales, el actor Julián Zucchi y la actriz Yiddá Eslava confirmaron el fin a su relación de más de 11 años, la cual comenzó durante su participación en el desaparecido reality ‘Combate’.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/espectaculos/Imagen4.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Falleció a los 54 años el icono del Rock peruano, Pedro Suárez-Vértiz</h5>
+                    <p className="card-text">La Policía Nacional del Perú informó que agentes acudieron a la casa del músico Pedro Suárez-Vértiz en Miraflores la mañana de hoy 28 de diciembre.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/espectaculos/Imagen5.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Luciana Fuster gano el Miss Grand International 2023</h5>
+                    <p className="card-text">La modelo peruana Luciana Fuster obtuvo una brillante coronación en el concurso de belleza Miss Grand International 2023.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/espectaculos/rbd.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">RBD de vuelta a los escenarios después de 15 años</h5>
+                    <p className="card-text">Los mexicanos Maite Perroni, Christian Chávez y Christopher von Uckermann, integrantes del grupo de pop RBD, señalaron que su vuelta a los escenarios con su “Soy rebelde tour”.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="dfs" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/espectaculos/Imagen7.png" className='w-50 align-self-center' alt="dfs" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Brunella Horna y el empresario Richard Acuña se convierten en padres</h5>
+                    <p className="card-text">La espera terminó para Brunella Horna, quien tras nueve meses de gestación pudo conocer a su hijo Alessio el pasado 24 de noviembre en una clínica de Lima, donde dio a luz..</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
+            <h3 className="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
               DEPORTES
             </h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/deportes/Imagen17.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">El deportista Cristian Pacheco revela que nadie lo recibió en su llegada a Lima</h5>
+                    <p className="card-text">Cristhian Pacheco, flamante ganador de la medalla de oro en maratón masculina en los Juegos Panamericanos, manifestó que ninguna autoridad lo recibió tras llegar a Lima esta .</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/deportes/Imagen18.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Jose Sabogal dio la orden de apagar las luces de Matute</h5>
+                    <p className="card-text">El administrador de Alianza Lima reveló que la decisión del apagón en la final de Liga 1 pasó por él, pero que no hubo intención de ir contra el juego limpio.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/deportes/Imagen20.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Perú pierde ante Bolivia en la fecha 5 de las Eliminatorias 2026</h5>
+                    <p className="card-text">Perú no le gana a nadie. La Bicolor de Juan Reynoso sumó su cuarta derrota en cinco fechas al caer por 2-0 a manos de Bolivia en el Estadio Hernando Siles de La Paz.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/deportes/Imagen24.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Lionel Messi gano su octavo Balón de Oro</h5>
+                    <p className="card-text">Las previsiones se cumplieron y Leo Messi ha ganado su octavo Balón de Oro en la gala celebrada en París. El crack ha dejado ya muy atrás a su gran competidor en los últimos años, Cristiano Ronaldo, quien se queda con los cinco trofeos.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="df" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/deportes/Imagen25.png" alt="df" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">España se corona campeona del mundo</h5>
+                    <p className="card-text">A la tercera fue la vencida para España en un Mundial femenino. Después de caer en sus dos anteriores participaciones mundialistas en fase de grupos y octavos de final, el combinado nacional tocó el cielo en Australia tras superar a Inglaterra por la mínima.</p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card" style={{ border: 'none' }}>
-                  <img src="/img.jpg" alt="dfs" />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="col">
+                <div className="card" style={{ border: 'none' }}>
+                  <img src="/deportes/Imagen26.png" alt="dfs" />
+                  <div className="card-body">
+                    <h5 className="card-title fw-bold">Universitario de Deportes gano la Liga 1 después de 10 años</h5>
+                    <p className="card-text">Universitario de Deportes es campeón de la Liga 1 Betsson 2023. Los ‘cremas’ empataron 1-1 en la final de ida, en el Monumental, y ganaron 2-0 en condición de visitante; por lo que se quedaron con el título de la actual temporada.</p>
                   </div>
                 </div>
               </div>
@@ -262,40 +264,40 @@ export default function Home() {
 
           {/* SIDE BAR */}
 
-          <div class="col-md-4">
-            <div class="position-sticky" style={{ top: '1rem' }}>
-              <div class="p-4 mb-3 bg-body-tertiary rounded">
-                <h4 class="fst-italic">Sobre nosotros</h4>
-                <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+          <div className="col-md-4">
+            <div className="position-sticky" style={{ top: '1rem' }}>
+              <div className="p-4 mb-3 bg-body-tertiary rounded">
+                <h4 className="fst-italic fw-bold">Sobre nosotros</h4>
+                <p className="mb-0">En nuestra plataforma de noticias, VILLACHASQUI te ofrece una experiencia informativa apasionante y actualizada. Nos comprometemos a brindarte noticias objetivas y relevantes, explorando también los aspectos humanos detrás de cada historia.</p>
               </div>
 
               <div>
-                <h4 class="fst-italic">Publicaciones recientes</h4>
-                <ul class="list-unstyled">
+                <h4 className="fst-italic">Publicaciones recientes</h4>
+                <ul className="list-unstyled">
                   <li>
-                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                      <img src="/imgprofile.png" alt="ad" />
-                      <div class="col-lg-8">
-                        <h6 class="mb-0">Example blog post title</h6>
-                        <small class="text-body-secondary">January 15, 2023</small>
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                      <img src="/recientes/side1.png" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Falleció a los 54 años el icono del Rock peruano, Pedro Suárez-Vértiz</h6>
+                        <small className="text-body-secondary">Enero 15, 2024</small>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                      <img src="/imgprofile.png" alt="ad" />
-                      <div class="col-lg-8">
-                        <h6 class="mb-0">This is another blog post title</h6>
-                        <small class="text-body-secondary">January 14, 2023</small>
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                      <img src="/recientes/side2.png" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Lionel Messi gano su octavo Balón de Oro</h6>
+                        <small className="text-body-secondary">Enero 15, 2024</small>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                      <img src="/imgprofile.png" alt="ad" />
-                      <div class="col-lg-8">
-                        <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
-                        <small class="text-body-secondary">January 13, 2023</small>
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                      <img src="/recientes/side3.png" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Javier Milei asumió como presidente de Argentina</h6>
+                        <small className="text-body-secondary">Enero 15, 2024</small>
                       </div>
                     </a>
                   </li>
@@ -303,32 +305,32 @@ export default function Home() {
               </div>
 
               <div>
-                <h4 class="fst-italic">Integrantes</h4>
-                <ul class="list-unstyled">
+                <h4 className="fst-italic">Integrantes</h4>
+                <ul className="list-unstyled">
                   <li>
-                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
                       <img src="/imgprofile.png" alt="ad" />
-                      <div class="col-lg-8">
-                        <h6 class="mb-0">Example blog post title</h6>
-                        <small class="text-body-secondary">January 15, 2023</small>
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Example blog post title</h6>
+                        <small className="text-body-secondary">January 15, 2023</small>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
                       <img src="/imgprofile.png" alt="ad" />
-                      <div class="col-lg-8">
-                        <h6 class="mb-0">This is another blog post title</h6>
-                        <small class="text-body-secondary">January 14, 2023</small>
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">This is another blog post title</h6>
+                        <small className="text-body-secondary">January 14, 2023</small>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
                       <img src="/imgprofile.png" alt="ad" />
-                      <div class="col-lg-8">
-                        <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6>
-                        <small class="text-body-secondary">January 13, 2023</small>
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Longer blog post title: This one has multiple lines!</h6>
+                        <small className="text-body-secondary">January 13, 2023</small>
                       </div>
                     </a>
                   </li>
