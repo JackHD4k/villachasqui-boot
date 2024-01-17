@@ -874,7 +874,7 @@ export default function page() {
         </div>
 
         <div class="col">
-          <a style={{ textDecoration: 'none' }} href="#">
+          <a style={{ textDecoration: 'none' }} href="https://vm.tiktok.com/ZM6CUcStn/">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               style={{ backgroundImage: "url(https://www.peru.travel/Contenido/General/Imagen/es/630/1.1/catedral-de-lima.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
