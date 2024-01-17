@@ -395,7 +395,7 @@ export default function page() {
       {/* FOTOS PLAYAS */}
       <div>
         <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
-          FOTOS DE BAÑISTAS EN PLAYAS DE LIMA
+          FOTOS EN PLAYAS DE LIMA
         </h3>
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
