@@ -7,10 +7,10 @@ export default function Home() {
       {/* CENTRO */}
 
       <div className="container">
-        <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis" style={{ backgroundColor: '#722f37' }}>
           <div className="col-lg-6 px-0">
-            <h1 className="display-4 fst-italic" style={{ color: '#722f37' }}>Historias que importan, noticias que transforman</h1>
-            <p className="lead my-3">Desde eventos globales hasta historias locales, te presentamos noticias con un toque apasionado y humano.</p>
+            <h1 className="display-4 fst-italic text-white">Historias que importan, noticias que transforman</h1>
+            <p className="lead my-3 text-white">Desde eventos globales hasta historias locales, te presentamos noticias con un toque apasionado y humano.</p>
           </div>
         </div>
 

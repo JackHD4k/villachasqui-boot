@@ -597,24 +597,203 @@ export default function page() {
       </div>
 
       {/* FOTOS AMBULANTES */}
-      <div class="row">
+      <div className="row">
         <h3 class="py-4 my-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
           FOTOS DE AMBULANTES DE LIMA
         </h3>
-        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img
             src="/ambulantes/ambu1.jpg"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Wintry Mountain Landscape"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modala1"
           />
+
+          <div class="modal fade" id="modala1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div className="container">
+                    <img
+                      src="/ambulantes/ambu1.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Yosemite National Park"
+                    />
+                    <p className="py-4 fs-5">
+                      La señora está vendiendo sus famosas brochetas de pollo en el Parque Neptuno. Con una simple parrilla y su sazón secreta, atrae a los transeúntes con el delicioso aroma. Ya es parte del paisaje del parque, donde comparte sonrisas y brochetas con la gente todos los días. Su puesto pequeño pero acogedor es punto de encuentro para los amantes de la buena comida.
+                    </p>
+                    <p className="blockquote-footer fs-6">
+                      Maldonado Curi Preciosa Andrea
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="/ambulantes/ambu6.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modala2"
+          />
+
+          <div class="modal fade" id="modala2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div className="container">
+                    <img
+                      src="/ambulantes/ambu6.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Yosemite National Park"
+                    />
+                    <p className="py-4 fs-5">
+                      El joven prepara waffles recién hechos todas las mañanas en su puestecillo en el mercado del barrio chino. El delicioso aroma atrae a los transeúntes curiosos que prueban este crujiente desayuno.
+                    </p>
+                    <p className="blockquote-footer fs-6">
+                      Maldonado Curi Preciosa Andrea
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
           <img
             src="/ambulantes/ambu2.jpg"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Mountains in the Clouds"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modala3"
           />
+
+          <div class="modal fade" id="modala3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div className="container">
+                    <img
+                      src="/ambulantes/ambu2.jpg"
+                      class="w-100 shadow-1-strong rounded mb-4"
+                      alt="Yosemite National Park"
+                    />
+                    <p className="py-4 fs-5">
+                      El joven ambulantes prepara sus exquisitos corn dog en su pequeño puesto en el Parque del Centro Cívico. Los transeúntes se detienen atraídos por el apetitoso aroma del bocadillo coreano.elicioso aroma atrae a los transeúntes curiosos que prueban este crujiente desayuno.
+                    </p>
+                    <p className="blockquote-footer fs-6">
+                      Maldonado Curi Preciosa Andrea
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div class="col-lg-8 mb-4 mb-lg-0">
+            <img
+              src="/ambulantes/ambu3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mountains in the Clouds"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modala4"
+            />
+
+            <div class="modal fade" id="modala4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div className="container">
+                      <img
+                        src="/ambulantes/ambu3.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Yosemite National Park"
+                      />
+                      <p className="py-4 fs-5">
+                        Un ambulante de la tercera edad pide monedas en la transitada avenida Jirón de la Unión. Pese a sus achaques, acude diario con su gorra gris. La solidaridad de algunos transeúntes le ayuda a sobrevivir.
+                      </p>
+                      <p className="blockquote-footer fs-6">
+                        Maldonado Curi Preciosa Andrea
+                      </p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/ambulantes/ambu5.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mountains in the Clouds"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modala5"
+            />
+
+            <div class="modal fade" id="modala5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div className="container">
+                      <img
+                        src="/ambulantes/ambu5.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Yosemite National Park"
+                      />
+                      <p className="py-4 fs-5">
+                        Joven ambulante lleva sus juguetes antiestrés a los transeúntes estresados. Ofrece masa antiestrés y pelotas pequeñas. Con cada venta busca sacar una sonrisa a los limeños abrumados.
+                      </p>
+                      <p className="blockquote-footer fs-6">
+                        Maldonado Curi Preciosa Andrea
+                      </p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -696,61 +875,61 @@ export default function page() {
 
         <div class="col">
           <a style={{ textDecoration: 'none' }} href="#">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style={{ backgroundImage: "url(https://s3-us-west-2.amazonaws.com/joinnus.com/user/1151/act53c6096d50bbc.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Recorrido por el Museo de Arte de Lima</h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <i class="bi bi-tiktok"></i>
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"></svg>
-                  <small>Lima</small>
-                </li>
-              </ul>
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style={{ backgroundImage: "url(https://www.peru.travel/Contenido/General/Imagen/es/630/1.1/catedral-de-lima.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Recorrido por la Catedral de Lima</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <i class="bi bi-tiktok"></i>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                    <small>Lima</small>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
           </a>
 
         </div>
         <div class="col">
-          <a style={{ textDecoration: 'none' }} href="#">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style={{ backgroundImage: "url(https://larepublica.cronosmedia.glr.pe/original/2022/09/11/631d51a3dd4ed9264b10e0d2.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Un día en Villareal</h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                <i class="bi bi-youtube"></i>
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"></svg>
-                  <small>Lima</small>
-                </li>
-              </ul>
+          <a style={{ textDecoration: 'none' }} href="https://www.youtube.com/watch?v=hoUE4v9rXeM">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style={{ backgroundImage: "url(https://larepublica.cronosmedia.glr.pe/original/2022/09/11/631d51a3dd4ed9264b10e0d2.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Un día en Villareal</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <i class="bi bi-youtube"></i>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                    <small>Lima</small>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
           </a>
 
         </div>
         <div class="col">
-          <a style={{ textDecoration: 'none' }} href="#">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style={{ backgroundImage: "url(https://emprender.pe/wp-content/uploads/2022/09/185018_1242966.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Negocio <br /> familiar</h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                <i class="bi bi-youtube"></i>
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"></svg>
-                  <small>Lima</small>
-                </li>
-              </ul>
+          <a style={{ textDecoration: 'none' }} href="https://www.youtube.com/watch?v=pJYvRZEZ5U0">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style={{ backgroundImage: "url(https://emprender.pe/wp-content/uploads/2022/09/185018_1242966.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Negocio <br /> familiar</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <i class="bi bi-youtube"></i>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                    <small>Lima</small>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
           </a>
 
         </div>
