@@ -115,7 +115,7 @@ export default function Home() {
               <div className="col">
                 <a className='nav-link' href="/internacionales/2">
                   <div className="card" style={{ border: 'none' }}>
-                    <img src="/internacionales/Imagen28.png" alt="df" />
+                    <img src="/internacionales/Imagen281.jpg" alt="df" />
                     <div className="card-body">
                       <h5 className="card-title fw-bold">Incendio en Chile deja 14 muertos de nacionalidad venezolana </h5>
                       <p className="card-text">El presidente chileno se pronunció sobre la tragedia registrada en la comuna de Coronel, donde 3 familias, entre los que se hallaban 8 menores, perdieron la vida al quemarse sus viviendas.</p>

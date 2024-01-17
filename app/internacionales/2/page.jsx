@@ -7,7 +7,7 @@ export default function Page() {
         <p>
           El presidente chileno se pronunció sobre la tragedia registrada en la comuna de Coronel, donde 3 familias, entre los que se hallaban 8 menores, perdieron la vida al quemarse sus viviendas.
         </p>
-        <img src="/internacionales/Imagen28.png" className="w-100 my-5" alt="fd" />
+        <img src="/internacionales/Imagen281.jpg" className="w-100 my-5" alt="fd" />
         <p>
           Durante su discurso en la entrega de la propuesta de una nueva constitución, lamentó la muerte de 14 ciudadanos venezolanos en un incendio suscitado en la noche del lunes 6 de noviembre en 2 viviendas de Coronel, en la región del Biobío. En este sentido, el mandatario cuestionó sobre cuál es la manera que ellos, como autoridades, están tratando a este grupo, así como las medidas que se toman por salvaguardar sus derechos e integridad.
         </p>
