@@ -294,7 +294,7 @@ export default function Home() {
                   <div className="card" style={{ border: 'none' }}>
                     <img src="/deportes/Imagen24.png" alt="df" />
                     <div className="card-body">
-                      <h5 className="card-title fw-bold">Lionel Messi gano su octavo Balón de Oro</h5>
+                      <h5 className="card-title fw-bold">Lionel Messi ganó su octavo Balón de Oro</h5>
                       <p className="card-text">Las previsiones se cumplieron y Leo Messi ha ganado su octavo Balón de Oro en la gala celebrada en París. El crack ha dejado ya muy atrás a su gran competidor en los últimos años, Cristiano Ronaldo, quien se queda con los cinco trofeos.</p>
                     </div>
                   </div>
@@ -353,7 +353,7 @@ export default function Home() {
                     <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/deporte/4">
                       <img src="/recientes/side2.png" alt="ad" />
                       <div className="col-lg-8">
-                        <h6 className="mb-0">Lionel Messi gano su octavo Balón de Oro</h6>
+                        <h6 className="mb-0">Lionel Messi ganó su octavo Balón de Oro</h6>
                         <small className="text-body-secondary">Enero 15, 2024</small>
                       </div>
                     </a>
