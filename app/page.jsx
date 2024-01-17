@@ -165,7 +165,7 @@ export default function Home() {
                   <div className="card" style={{ border: 'none' }}>
                     <img src="/internacionales/Imagen31.png" alt="dfs" />
                     <div className="card-body">
-                      <h5 className="card-title fw-bold">Mexico y EE. UU. acuerdan mantener pasos fronterizos abiertos</h5>
+                      <h5 className="card-title fw-bold">México y EE. UU. acuerdan mantener pasos fronterizos abiertos</h5>
                       <p className="card-text">Andrés Manuel López Obrador también subrayó la necesidad de continuar con el compromiso diplomático y político con todos los países de la región e invertir en programas de desarrollo para toda América..</p>
                     </div>
                   </div>
@@ -218,7 +218,7 @@ export default function Home() {
                   <div className="card" style={{ border: 'none' }}>
                     <img src="/espectaculos/Imagen5.png" alt="df" />
                     <div className="card-body">
-                      <h5 className="card-title fw-bold">Luciana Fuster gano el Miss Grand International 2023</h5>
+                      <h5 className="card-title fw-bold">Luciana Fuster ganó el Miss Grand International 2023</h5>
                       <p className="card-text">La modelo peruana Luciana Fuster obtuvo una brillante coronación en el concurso de belleza Miss Grand International 2023.</p>
                     </div>
                   </div>
@@ -318,7 +318,7 @@ export default function Home() {
                   <div className="card" style={{ border: 'none' }}>
                     <img src="/deportes/Imagen26.png" alt="dfs" />
                     <div className="card-body">
-                      <h5 className="card-title fw-bold">Universitario de Deportes gano la Liga 1 después de 10 años</h5>
+                      <h5 className="card-title fw-bold">Universitario de Deportes ganó la Liga 1 después de 10 años</h5>
                       <p className="card-text">Universitario de Deportes es campeón de la Liga 1 Betsson 2023. Los ‘cremas’ empataron 1-1 en la final de ida, en el Monumental, y ganaron 2-0 en condición de visitante; por lo que se quedaron con el título de la actual temporada.</p>
                     </div>
                   </div>

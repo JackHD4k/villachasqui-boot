@@ -48,13 +48,13 @@ export default function Home() {
           Tags
         </p>
         <p>
-          VLADIMIRO MONSTESINOS <a href="https://elcomercio.pe/noticias/vladimiro-montesinos/">https://elcomercio.pe/noticias/vladimiro-montesinos/</a>
+           <a href="https://elcomercio.pe/noticias/vladimiro-montesinos/">VLADIMIRO MONSTESINOS</a>
         </p>
         <p>
-          CASO LEONOR LA ROSA <a href="https://elcomercio.pe/noticias/caso-leonor-la-rosa/"> https://elcomercio.pe/noticias/caso-leonor-la-rosa/</a>
+           <a href="https://elcomercio.pe/noticias/caso-leonor-la-rosa/"> CASO LEONOR LA ROSA</a>
         </p>
         <p>
-          PODER JUDICIAL <a href="https://elcomercio.pe/noticias/poder-judicial/"> https://elcomercio.pe/noticias/poder-judicial/</a>
+           <a href="https://elcomercio.pe/noticias/poder-judicial/"> PODER JUDICIAL</a>
         </p>
       </div>
 

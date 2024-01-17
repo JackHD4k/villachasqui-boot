@@ -45,13 +45,13 @@ export default function Home() {
           Tags
         </p>
         <p>
-          ALBERTO FUJIMORI  <a href="https://larepublica.pe/tag/alberto-fujimori">https://larepublica.pe/tag/alberto-fujimori</a>
+            <a href="https://larepublica.pe/tag/alberto-fujimori">ALBERTO FUJIMORI</a>
         </p>
         <p>
-          TRIBUNAL CONSTITUCIONAL  <a href="https://larepublica.pe/tag/tribunal-constitucional"> https://larepublica.pe/tag/tribunal-constitucional</a>
+            <a href="https://larepublica.pe/tag/tribunal-constitucional"> TRIBUNAL CONSTITUCIONAL</a>
         </p>
         <p>
-          FUERZA POPULAR  <a href="https://larepublica.pe/tag/fuerza-popular"> https://larepublica.pe/tag/fuerza-popular</a>
+            <a href="https://larepublica.pe/tag/fuerza-popular"> FUERZA POPULAR</a>
         </p>
       </div>
     </div>
