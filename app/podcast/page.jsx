@@ -8,36 +8,23 @@ export default function Home() {
         <p class="col-lg-8 mx-auto fs-5 text-white">
           ¡Bienvenido a nuestro podcast musical! Exploraremos juntos éxitos inolvidables, descubriremos historias tras las canciones y nos sumergiremos en la magia de la música.
         </p>
-
-        <div class="container d-flex justify-content-center my-4 mb-5">
-          <div id="mobile-box">
-            <div class="card">
-              <div
-                class="bg-image hover-overlay ripple"
-                data-mdb-ripple-color="light"
-              >
-                <img
-                  class="card-img-top w-100"
-                  src="../podcast.jpg"
-                  alt="Card image cap"
-                />
+        <div className="container d-flex justify-content-center">
+        <div class="card w-75">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-5">
+                <img src="../podcast.jpg" class="w-100" alt="Responsive image" />
               </div>
-              <div class="card-body text-center" style={{ backgroundColor: '#b14854' }}>
-                <h1 class="fs-1 font-weight-bold text-white">
-                  VILLACHASQUI
-                </h1>
-                <p class="mb-0 fs-5 text-white">Las músicas más escuchadas en el 2023 !</p>
-
-                <div class="d-inline-flex gap-2 py-4">
-                  <div class="col-sm-4 col-sm-offset-4 embed-responsive embed-responsive-4by3">
-                    <audio controls class="embed-responsive-item">
-                      <source src="../podcast.mp3" />
-                    </audio>
-                  </div>
-                </div>
+              <div class="col-7 text-start align-self-center">
+                <h5 class="card-title fs-3">RADIO VILLACHASQUI</h5>
+                <p class="card-text fs-5">Top músicas más escuchadas del 2023</p>
+                <audio controls>
+                  <source src="../podcast.mp3" type="audio/mpeg" />
+                </audio>
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>
