@@ -7,7 +7,7 @@ export default function page() {
       {/* FOTOS TURISTICAS */}
       <div>
         <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
-          FOTOS TURISTICOS DE CENTRO DE LIMA
+          FOTOS TURÍSTICOS DE CENTRO DE LIMA
         </h3>
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -359,10 +359,10 @@ export default function page() {
                             <img src="../img_tur/OHGGIGINS.JPG" class="d-block w-100" alt="..." />
                           </div>
                           <div class="carousel-item">
-                            <img src="../img_tur/casa_ohiggins/ohi1.jpg" class="d-block w-100" alt="..." />
+                            <img src="../img_tur/casa_ohiggins/ohii1.jpg" class="d-block w-100" alt="..." />
                           </div>
                           <div class="carousel-item">
-                            <img src="../img_tur/casa_ohiggins/ohi2.jpg" class="d-block w-100" alt="..." />
+                            <img src="../img_tur/casa_ohiggins/ohii2.jpg" class="d-block w-100" alt="..." />
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselOhgigins" data-bs-slide="prev">

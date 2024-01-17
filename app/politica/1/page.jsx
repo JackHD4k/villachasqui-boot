@@ -29,7 +29,7 @@ export default function Home() {
           No obstante, refiere que Leonor La Rosa fue privada de su libertad de manera ilegal y que las condiciones de detención fueron “absolutamente inaceptables”, con lo cual queda acreditado el delito de secuestro agravado con trato cruel contra los procesados, de quienes dijo “actuaban asignándose roles” durante 11 días, en febrero de 1997.
         </p>
         <p>
-          Finalmente, el tribunal declaró infundado el pedido de la defensa de <span className="fw-bold">Vladimiro Montesinos</span> <a href="https://elpais.com/america/2023-12-30/el-poder-judicial-peruano-absuelve-a-vladimiro-montesinos-por-las-torturas-a-la-exagente-de-inteligencia-leonor-la-rosa.html">https://elpais.com/america/2023-12-30/el-poder-judicial-peruano-absuelve-a-vladimiro-montesinos-por-las-torturas-a-la-exagente-de-inteligencia-leonor-la-rosa.html</a>  para aplicar la figura de prescripción en este caso. También rechazó una solicitud de Nicolás Hermoza Ríos, que planteaba el sobreseimiento definitivo de la causa.
+          Finalmente, el tribunal declaró infundado el pedido de la defensa de <a className="fw-bold" href="https://elpais.com/america/2023-12-30/el-poder-judicial-peruano-absuelve-a-vladimiro-montesinos-por-las-torturas-a-la-exagente-de-inteligencia-leonor-la-rosa.html">Vladimiro Montesinos</a>  para aplicar la figura de prescripción en este caso. También rechazó una solicitud de Nicolás Hermoza Ríos, que planteaba el sobreseimiento definitivo de la causa.
         </p>
         <p>
           Durante su participación en las audiencias, Montesinos negó los cargos en su contra y solicitó ser absuelto de este caso porque se considera inocente.
@@ -39,7 +39,7 @@ export default function Home() {
         </p>
         <p>
           El caso
-          Leonor La Rosa <a href="https://elcomercio.pe/opinion/el-informante/leonor-la-rosa-la-tortura-imposible-por-ricardo-uceda-noticia/">https://elcomercio.pe/opinion/el-informante/leonor-la-rosa-la-tortura-imposible-por-ricardo-uceda-noticia/</a> denunció que fue torturada y violada por militares y agentes inteligencia en febrero de 1997 durante interrogatorios. Ella y la agente Mariela Barreto, quien fue asesinada ese mismo año, fueron acusadas de supuestamente filtrar a la prensa documentos sobre los planes criminales del régimen contra periodistas y políticos opositores.
+          Leonor  <a href="https://elcomercio.pe/opinion/el-informante/leonor-la-rosa-la-tortura-imposible-por-ricardo-uceda-noticia/">La Rosa</a> denunció que fue torturada y violada por militares y agentes inteligencia en febrero de 1997 durante interrogatorios. Ella y la agente Mariela Barreto, quien fue asesinada ese mismo año, fueron acusadas de supuestamente filtrar a la prensa documentos sobre los planes criminales del régimen contra periodistas y políticos opositores.
         </p>
         <p>
           En junio de este año, <span className="fw-bold">Vladimiro Montesinos</span>, el jefe del grupo Colina Santiago Martín Rivas, y dos exoficiales del Ejército fueron condenados a penas de prisión de entre ocho y 23 años, por el asesinato de la agente de inteligencia Mariela Barreto.
