@@ -598,7 +598,7 @@ export default function page() {
 
       {/* FOTOS AMBULANTES */}
       <div class="row">
-      <h3 class="py-4 my-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
+        <h3 class="py-4 my-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
           FOTOS DE AMBULANTES DE LIMA
         </h3>
         <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
@@ -645,6 +645,118 @@ export default function page() {
           </div>
         </div>
       </div>
+
+      {/* CONTENIDO MULTIMEDIA */}
+      <h3 class="py-4 mb-4 mt-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
+        CONTENIDO MULTIMEDIA
+      </h3>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <a style={{ textDecoration: 'none' }} href="https://vm.tiktok.com/ZM6CkYpav/">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style={{ backgroundImage: "url(https://i.pinimg.com/736x/d9/8c/62/d98c62203d1c0eb202a8300683576336.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Un día de playa del 2024</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <i class="bi bi-tiktok"></i>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                    <small>Lima</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="col">
+          <a style={{ textDecoration: 'none' }} href="https://vm.tiktok.com/ZM6CkkXfa/">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style={{ backgroundImage: "url(https://e.rpp-noticias.io/xlarge/2018/12/21/184718_729880.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Último día del 2023</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <i class="bi bi-tiktok"></i>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                    <small>Lima</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="col">
+          <a style={{ textDecoration: 'none' }} href="#">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style={{ backgroundImage: "url(https://s3-us-west-2.amazonaws.com/joinnus.com/user/1151/act53c6096d50bbc.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Recorrido por el Museo de Arte de Lima</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <i class="bi bi-tiktok"></i>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"></svg>
+                  <small>Lima</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </a>
+
+        </div>
+        <div class="col">
+          <a style={{ textDecoration: 'none' }} href="#">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style={{ backgroundImage: "url(https://larepublica.cronosmedia.glr.pe/original/2022/09/11/631d51a3dd4ed9264b10e0d2.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Un día en Villareal</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                <i class="bi bi-youtube"></i>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"></svg>
+                  <small>Lima</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </a>
+
+        </div>
+        <div class="col">
+          <a style={{ textDecoration: 'none' }} href="#">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style={{ backgroundImage: "url(https://emprender.pe/wp-content/uploads/2022/09/185018_1242966.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-2 mt-5 mb-4 display-6 lh-1 fw-bold">Negocio <br /> familiar</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                <i class="bi bi-youtube"></i>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"></svg>
+                  <small>Lima</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </a>
+
+        </div>
+
+      </div>
+
 
       {/* PODCAST */}
       <div class="container my-5">
