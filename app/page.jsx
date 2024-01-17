@@ -10,8 +10,7 @@ export default function Home() {
         <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
           <div className="col-lg-6 px-0">
             <h1 className="display-4 fst-italic" style={{ color: '#722f37' }}>Historias que importan, noticias que transforman</h1>
-            <p className="lead my-3">Multiple lines of text that form the lede, informing new readers qu
-              ickly and efficiently about what’s most interesting in this post’s contents.</p>
+            <p className="lead my-3">Desde eventos globales hasta historias locales, te presentamos noticias con un toque apasionado y humano.</p>
           </div>
         </div>
 
@@ -342,7 +341,7 @@ export default function Home() {
                 <h4 className="fst-italic">Publicaciones recientes</h4>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/espectaculos/3">
                       <img src="/recientes/side1.png" alt="ad" />
                       <div className="col-lg-8">
                         <h6 className="mb-0">Falleció a los 54 años el icono del Rock peruano, Pedro Suárez-Vértiz</h6>
@@ -351,7 +350,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/deporte/4">
                       <img src="/recientes/side2.png" alt="ad" />
                       <div className="col-lg-8">
                         <h6 className="mb-0">Lionel Messi gano su octavo Balón de Oro</h6>
@@ -360,7 +359,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="/internacionales/4">
                       <img src="/recientes/side3.png" alt="ad" />
                       <div className="col-lg-8">
                         <h6 className="mb-0">Javier Milei asumió como presidente de Argentina</h6>
@@ -375,31 +374,92 @@ export default function Home() {
                 <h4 className="fst-italic">Integrantes</h4>
                 <ul className="list-unstyled">
                   <li>
-                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                      <img src="/imgprofile.png" alt="ad" />
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/1.jpg" alt="ad" />
                       <div className="col-lg-8">
-                        <h6 className="mb-0">Example blog post title</h6>
-                        <small className="text-body-secondary">January 15, 2023</small>
+                        <h6 className="mb-0">Toledo Cisceros Almendra</h6>
+                        <small className="text-body-secondary">Toledo_C@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
                       </div>
-                    </a>
+                    </div>
                   </li>
                   <li>
-                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                      <img src="/imgprofile.png" alt="ad" />
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/2.jpg" alt="ad" />
                       <div className="col-lg-8">
-                        <h6 className="mb-0">This is another blog post title</h6>
-                        <small className="text-body-secondary">January 14, 2023</small>
+                        <h6 className="mb-0">Jiménez Zena Fernando</h6>
+                        <small className="text-body-secondary">Jimenez_Z@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
                       </div>
-                    </a>
+                    </div>
                   </li>
                   <li>
-                    <a className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                      <img src="/imgprofile.png" alt="ad" />
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/3.jpg" alt="ad" />
                       <div className="col-lg-8">
-                        <h6 className="mb-0">Longer blog post title: This one has multiple lines!</h6>
-                        <small className="text-body-secondary">January 13, 2023</small>
+                        <h6 className="mb-0">Chempen Panta Angel</h6>
+                        <small className="text-body-secondary">Chempen_P@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
                       </div>
-                    </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/4.jpg" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Ramos Casas Margiori</h6>
+                        <small className="text-body-secondary">Ramos_C@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/5.jpg" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Huanca Quispe Ana paula</h6>
+                        <small className="text-body-secondary">Huamca_Q@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/6.jpg" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Rodríguez Eyzaguirre Xiomara</h6>
+                        <small className="text-body-secondary">Eyzaguirre_R@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/8.jpg" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Flores Chalco Sonaly</h6>
+                        <small className="text-body-secondary">Flores_C@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img src="/integrantes/9.jpg" alt="ad" />
+                      <div className="col-lg-8">
+                        <h6 className="mb-0">Maldonado Curi Preciosa</h6>
+                        <small className="text-body-secondary">Maldonado_C@villachasqui.pe</small>
+                        <br />
+                        <small className="text-body-secondary">Editor</small>
+                      </div>
+                    </div>
                   </li>
                 </ul>
               </div>
