@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <div className="container my-4 text-center" style={{ backgroundColor: '#722f37' }}>
             <img src="../reducido.png" className='img-fluid' alt="logo" />
           </div>
-          <nav className="navbar navbar-expand-lg my-4 border-top border-bottom">
+          <nav id='nav-scroll' className="navbar navbar-expand-lg my-4 border-top border-bottom">
             <div className="container-fluid d-flex justify-content-center">
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartop" aria-controls="navbartop" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -33,7 +33,22 @@ export default function RootLayout({ children }) {
                     <Link className='nav-link text-dark' href={'/'}>INICIO</Link>
                   </li>
                   <li className="nav-item">
+                    <Link className='nav-link text-dark' href='/#scroll-politica'>POLÍTICA</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className='nav-link text-dark' href='/#scroll-internacionales'>INTERNACIONALES</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className='nav-link text-dark' href='/#scroll-espectaculos'>ESPECTÁCULOS</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className='nav-link text-dark' href='/#scroll-deportes'>DEPORTES</Link>
+                  </li>
+                  <li className="nav-item">
                     <Link className='nav-link text-dark' href={'/miscelanea'}>MISCELANEA</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className='nav-link text-dark' href={'/podcast'}>PODCAST</Link>
                   </li>
                 </ul>
               </div>

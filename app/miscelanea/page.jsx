@@ -596,6 +596,29 @@ export default function page() {
         </div>
       </div>
 
+      {/* FOTOS AMBULANTES */}
+      <div class="row">
+      <h3 class="py-4 my-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
+          FOTOS DE AMBULANTES DE LIMA
+        </h3>
+        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="/ambulantes/ambu1.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          />
+        </div>
+
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img
+            src="/ambulantes/ambu2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Mountains in the Clouds"
+          />
+        </div>
+      </div>
+
+
       {/* MEMES */}
       <div>
         <h3 class="py-4 mb-4 border-bottom border-2 border-danger-subtle fw-bold" style={{ color: '#d1510f' }}>
@@ -604,7 +627,7 @@ export default function page() {
         <div className="container">
           <div className="row row-cols-1 row-cols-md-3 align-items-md-center">
             <div className="">
-             <img src="../memes/meme1.jpg" className="w-100" alt="a" />
+              <img src="../memes/meme1.jpg" className="w-100" alt="a" />
             </div>
             <div className="">
               <img src="../memes/meme2.jpg" className="w-100" alt="a" />
@@ -631,18 +654,11 @@ export default function page() {
           <p class="col-lg-8 mx-auto fs-5 text-white">
             ¡Bienvenido a nuestro podcast musical! Exploraremos juntos éxitos inolvidables, descubriremos historias tras las canciones y nos sumergiremos en la magia de la música.
           </p>
-          <div class="d-inline-flex gap-2 mb-5">
-            <div class="col-sm-4 col-sm-offset-4 embed-responsive embed-responsive-4by3">
-              <audio controls class="embed-responsive-item">
-                <source src="../podcast.mp3" />
-              </audio>
-            </div>
+          <div class="d-inline-flex gap-2 py-4">
+            <a className="btn btn-outline-light" href={'/podcast'}>PARA ESCUCHAR NUESTRO PODCAST HAZ CLICK AQUÍ </a>
           </div>
         </div>
       </div>
-
-      
-
     </div>
 
   )
